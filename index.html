@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title> from html </title>
+		<meta name = "author" content ="ditaa">
+	</head>
+	<body>
+		<form method="" action="" >
+			<fieldset>
+				<legend>Data Pribadi</legend>
+			<table>
+
+				<tr>
+				<th><label for = "nama">Nama</label></th>
+				<td><input size = "40" type="text" name ="nama" id ="nama" autofocus placeholder ="Nama lengkap" required></td>
+				</tr>
+				<tr>
+				<th><label for = "Nim">Nim</label></th>
+				<td><input type="number" name ="nim" id ="Nim" value ="123456" readonly ></td>
+				</tr>
+				<tr>
+				<th><label for = "Email">Email</label></th>
+				<td><input type="Email" name ="email" id ="Email"></td>
+				</tr>
+				<tr>
+				<th><label for = "Jenis Kelamin">Jenis Kelamin</label></th>
+				<td><input type="radio" name ="jk" value ="Laki-laki" id = "Jenis Kelamin" > Laki-Laki
+				<input type="radio" name ="jk" value ="Perempuan"> Perempuan</td>
+				</tr>
+				<tr>
+				<th><label for = "Tanggal Lahir">Tanggal Lahir</label></th>
+				<td><input type="date" name ="tgl_lahir" id="Tanggal Lahir">
+				<input type="datetime-local" name ="tgl_lahir" id="Tanggal Lahir" ></td>
+				</tr>
+				<tr>
+				<th><label for = "Hobby">Hobby</label></th>
+				<td><input type="checkbox" name ="hobby" value = "Membaca" id ="Hobby" >Membaca
+				<input type="checkbox" name ="hobby" value = "Berenang" id="Hobby" >Berenang
+				<input type="checkbox" name ="hobby" value = "Menyanyi" id="Hobby">Menyanyi</td>
+				</tr>
+				<tr>
+				<th><label for = "Password">Password</label></th>
+				<td><input type="Password" name ="pw" id="Password"></td>
+				</tr>
+				<tr>
+				<th><label for = "Foto">Foto</label></th>
+				<td><input type="file" name ="foto" accept="image/*" id="Foto"></td>
+				</tr>
+				<tr>
+				<th><label for = "Warna kesukaan">Warna kesukaan</label></th>
+				<td><input type="color" name ="warna" id="Warna kesukaan"></td>
+				</tr>
+				<tr>
+				<th><label for = "alamat">Alamat</label></th>
+				<td><textarea name="alamat" id ="alamat" cols="30" rows ="5"></textarea></td>
+				</tr>
+				<tr>
+				<th><label for="kota">kota</label></th>
+				<td>
+					<select name="kota" id="kota">
+						<option value="Padang">Padang</option>
+						<option value="Payakumbuh">Payakumbuh</option>
+						<option value="Pariaman">Pariaman</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
+				<td colspan="2"> &nbsp;</td>
+				</tr>
+				<tr>
+				<td colspan="2" align="center"><input type="submit"></td>
+				</tr>
+				</table>
+				</fieldset>
+			</form>
+	</body>
+	</html>
